@@ -10,7 +10,7 @@ class PlayerArrow {
       this.height = height;
       this.body = Bodies.rectangle(x, y, this.width, this.height, options);
       this.trajectory = [];
-      this.image = loadImage("./assets/arrow.png");
+      this.image = loadImage("arrow.png");
        World.add(world, this.body);
     }
     shoot(archerAngle) {
